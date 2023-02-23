@@ -1,0 +1,235 @@
+/* Body */
+
+body{
+    font-family: Montserrat;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+/* Headings */
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+.medium-header {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-header {
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.feature-headers {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+
+/* Section Title */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.title-continer{
+    padding: 3% 15% 7%;
+}
+
+
+
+
+/* NavBar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    font-weight: lighter;
+}
+
+
+
+
+/* Title Container */
+
+.wet-dog{
+    transform: rotate(25deg);
+    width: 60%;
+    display: inline-block;
+    position: absolute;
+    /* by changing the position to absolute the box wont have the picture dimension anymore (which was the longer element until now),
+    but it will have the lenght of the title and the download buttons, since it won't see the image anymore. I'ts been taking out of the
+    html flow. you could have done this several other ways, but with this method you won't need to move up the feature section, cause the 
+    title section will get shorter by its own. */
+    right: 30%;
+}
+
+
+
+/* Download Buttons */
+
+.download-button{
+    margin: 3% 5% 3% 0;
+}
+
+
+
+/* Features */
+
+#features {
+    background-color: white;
+    position: relative;
+}
+
+.feature-row {
+    padding: 10%;
+    text-align: center;
+}
+
+.feature-col{
+    padding: 5%;
+}
+
+.icon {
+    padding: 1rem;
+    color: #ef8172;
+}
+
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+
+/* Carousel Section */
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
+.doggo{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press {
+    background-color: #ef8172;
+    padding: 3%;
+    text-align: center;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* Call to action section */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 7% 3%;
+}
+
+.call {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin: 5% 17%;
+}
+
+.b-button {
+    margin: 1%;
+}
+
+
+/* Footer Section */
+
+#footer{
+    padding:7% 3%;
+    text-align: center;
+}
+
+.i-icons {
+    padding: 1%;
+}
+
+.copyright{
+    padding: 1%;
+}
+
+/* Media queries to make the website more responsive: */
+
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+
+    .wet-dog{
+        left:18%;
+        position: absolute;
+        transform: rotate(0);
+    }
+    
+    .title-row {
+        padding-bottom: 10%;
+    }
+
+    #title {
+        padding-bottom: 30%;
+    }
+}
